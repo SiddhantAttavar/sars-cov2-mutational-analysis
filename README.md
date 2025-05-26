@@ -17,6 +17,8 @@ This repository contains the code for my study project (BIO-F266) on "Identifica
 	`python3 entropy.py alignment.fasta`
 4. Identify hotspots and plot positional mutational entropy (`hotspots.py`): <br>
 	`python3 hotspots.py entropy.csv output.csv ref_regions.csv`
+5. Split a fasta file by variants (`split_vocs.py`): <br>
+	`python3 split_vocs.py mapping.full.json sequences.csv sequences.fasta out_folder`
 
 > Note: Alignment is performed with [HAlign-4](https://github.com/metaphysicser/HAlign-4) using the command <br>
 > `./halign4 sequences.fasta alignment.fasta -r reference.fasta`
